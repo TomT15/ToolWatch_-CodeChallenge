@@ -8,6 +8,6 @@ namespace TW.DeveloperTest.Contracts.Logger
 {
     public class Warning 
     {
-        List<string> Messages; 
+        public List<string> Messages; 
     }
 }

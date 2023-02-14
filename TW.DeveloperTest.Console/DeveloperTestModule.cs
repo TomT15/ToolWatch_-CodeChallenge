@@ -8,7 +8,7 @@ namespace TW.DeveloperTest.ConsoleApp
     {
         public override void Load()
         {
-            Bind<ILogger>().To<SampleWorker>();
+            //Bind<IWorker>().To<SampleWorker>();
         }
     }
 }

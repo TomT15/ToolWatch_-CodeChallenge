@@ -4,7 +4,7 @@ using TW.DeveloperTest.Contracts;
 
 namespace TW.DeveloperTest.WorkLibrary
 {
-    public class SampleWorker : ILogger
+    public class SampleWorker : IWorker
     {
         readonly Random _random;
 

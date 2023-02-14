@@ -8,7 +8,7 @@ using TW.DeveloperTest.Contracts.Logger;
 
 namespace TW.DeveloperTest.Contracts
 {
-    public class HeadLogger : ILoggerInfo
+    public class HeadLogger
     {
         public Logger.Debug Debug;
         public Information Information;

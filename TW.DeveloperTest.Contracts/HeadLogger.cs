@@ -20,7 +20,7 @@ namespace TW.DeveloperTest.Contracts
             Error = new List<LoggerInformation>();
         }
 
-        public void AddLog()
+        public void AddLog(List<LoggerInformation> logger)
         {
             throw new NotImplementedException();
         }
@@ -35,7 +35,7 @@ namespace TW.DeveloperTest.Contracts
             throw new NotImplementedException();
         }
 
-        public void RemoveLog()
+        public void RemoveLog(List<LoggerInformation> logger)
         {
             throw new NotImplementedException();
         }

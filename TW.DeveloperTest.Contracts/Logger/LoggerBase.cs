@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TW.DeveloperTest.Contracts
 {
-    public class LoggerInformation
+    public abstract class LoggerBase
     {
         public string name;
         public string description;
-        public LoggerInformation() { }
-        public LoggerInformation(string name, string description)
+
+        public LoggerBase(string name, string description)
         {
             this.name = name;
             this.description = description;

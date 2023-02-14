@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace TW.DeveloperTest.Contracts.Logger
 {
-    public class Debug : LoggerBase
+    public class Error : LoggerBase
     {
-        public Debug(string name, string description) : base(name, description)
-        {
-        }
+        List<string> Messages;
     }
 }

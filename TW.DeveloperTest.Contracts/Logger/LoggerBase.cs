@@ -4,17 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TW.DeveloperTest.Contracts
+namespace TW.DeveloperTest.Contracts.Logger
 {
     public abstract class LoggerBase
     {
-        public string name;
-        public string description;
-
-        public LoggerBase(string name, string description)
-        {
-            this.name = name;
-            this.description = description;
-        }
+        List<string> Messages;
     }
 }

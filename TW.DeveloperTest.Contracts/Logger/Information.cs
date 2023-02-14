@@ -8,8 +8,6 @@ namespace TW.DeveloperTest.Contracts.Logger
 {
     public class Information : LoggerBase
     {
-        public Information(string name, string description) : base(name, description)
-        {
-        }
+        List<string> Messages;
     }
 }

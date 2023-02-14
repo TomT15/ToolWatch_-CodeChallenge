@@ -8,8 +8,6 @@ namespace TW.DeveloperTest.Contracts.Logger
 {
     public class Debug : LoggerBase
     {
-        public Debug(string name, string description) : base(name, description)
-        {
-        }
+        
     }
 }

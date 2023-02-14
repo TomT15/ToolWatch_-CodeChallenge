@@ -9,7 +9,7 @@ namespace TW.DeveloperTest.ConsoleApp
         static void Main(string[] args)
         {
             bool run = true;
-            IWorker worker = Ioc.Resolve<IWorker>();
+            ILogger worker = Ioc.Resolve<ILogger>();
 
             do
             {
@@ -40,5 +40,7 @@ namespace TW.DeveloperTest.ConsoleApp
                 Thread.Sleep(500);
             } while (run);
         }
+            
     }
+
 }
